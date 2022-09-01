@@ -19,10 +19,7 @@ function getProducts (req, res) {
 	})	
 }
 
-function saveProduct (req, res){
-	console.log('POST /api/product')
-	console.log(req.body)
-	
+function saveProduct (req, res){	
 	let product = new Product()
 	product.name = req.body.name
 	product.picture = req.body.picture

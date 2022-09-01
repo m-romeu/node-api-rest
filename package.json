@@ -10,8 +10,12 @@
   "author": "Marta Romeu",
   "license": "MIT",
   "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
     "body-parser": "^1.20.0",
+    "crypto": "^1.0.1",
     "express": "^4.18.1",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.29.4",
     "mongoose": "^6.5.3"
   },
   "devDependencies": {
